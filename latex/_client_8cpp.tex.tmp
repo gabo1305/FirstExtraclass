@@ -1,0 +1,27 @@
+\hypertarget{_client_8cpp}{}\doxysection{Referencia del Archivo Client.\+cpp}
+\label{_client_8cpp}\index{Client.cpp@{Client.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$sys/socket.\+h$>$}\newline
+{\ttfamily \#include $<$arpa/inet.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Dependencia gráfica adjunta para Client.\+cpp\+:
+% FIG 0
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a79a3d8790b2588b09777910863574e09}{int}} \mbox{\hyperlink{_client_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{_client_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_client_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Client.cpp@{Client.cpp}!main@{main}}
+\index{main@{main}!Client.cpp@{Client.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a79a3d8790b2588b09777910863574e09}{int}} main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+crea el socket \begin{DoxyReturn}{Devuelve}
+
+\end{DoxyReturn}

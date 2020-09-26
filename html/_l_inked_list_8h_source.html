@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Extraclase 1: Fichero Fuente LinkedList/LInkedList.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Extraclase 1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_71125faae7de41fad78e06b851a5003e.html">LinkedList</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">LInkedList.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_l_inked_list_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by gabriel on 25/9/20.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef INC_1EXTRACLASS_LINKEDLIST_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define INC_1EXTRACLASS_LINKEDLIST_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_node.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_node.html">Node</a>{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_node.html#ac450c71a8677a38d306361f9ced518d3">   19</a></span>&#160;    T <a class="code" href="class_node.html#ac450c71a8677a38d306361f9ced518d3">data</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">   20</a></span>&#160;    <a class="code" href="class_node.html">Node</a>* <a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_node.html#a0692b16d246460bf94c18d49592facdd">   21</a></span>&#160;    <a class="code" href="class_node.html#a0692b16d246460bf94c18d49592facdd">Node</a>(T <a class="code" href="class_node.html#ac450c71a8677a38d306361f9ced518d3">data</a>){</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        this-&gt;data = <a class="code" href="class_node.html#ac450c71a8677a38d306361f9ced518d3">data</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this-&gt;next = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_linked_list.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_linked_list.html">LinkedList</a>{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_linked_list.html#a3c20fcfec867e867f541061a09fc640c">   38</a></span>&#160;    <a class="code" href="class_linked_list.html#a3c20fcfec867e867f541061a09fc640c">LinkedList</a>(){</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this-&gt;head = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        this-&gt;size = 0;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_linked_list.html#a7ecbb28e82117a680839ed0dc28ebdce">   46</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_linked_list.html#a7ecbb28e82117a680839ed0dc28ebdce">isEmpty</a>(){</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> head == <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="class_linked_list.html#af5554257c49d4d83c41d82c782642c20">~LinkedList</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_linked_list.html#ab22b6fde4ef5f89943505ae5deb7be9d">   60</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_linked_list.html#ab22b6fde4ef5f89943505ae5deb7be9d">addNode</a>(T data){</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span>(head== <span class="keyword">nullptr</span>){</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            head =  <span class="keyword">new</span> <a class="code" href="class_node.html">Node&lt;T&gt;</a>(data);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            size++;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="class_node.html">Node&lt;T&gt;</a> *current = head;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">while</span>(current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a> != <span class="keyword">nullptr</span>){</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                current = current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a> = <span class="keyword">new</span> <a class="code" href="class_node.html">Node&lt;T&gt;</a>(data);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            size++;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="class_linked_list.html#a8a6f5190222bd179daeb7cc548d36a29">   78</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_linked_list.html#a8a6f5190222bd179daeb7cc548d36a29">remove</a>(<span class="keywordtype">int</span> index){</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span>(size == 1){</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            head = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            size = 0;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(index == 0){</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            head = head-&gt;next;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            size--;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="class_node.html">Node&lt;T&gt;</a> *current = head;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">while</span>(i &lt; index -1){</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                current = current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                i++;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a> = current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            size--;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="class_linked_list.html#ab56d59b74c8d24cd223a4a49a2b5cfb1">  101</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_linked_list.html#ab56d59b74c8d24cd223a4a49a2b5cfb1">getSize</a>(){</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> this-&gt;size;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_linked_list.html#a9c112e75e7eeaa2fe34d6e80901eb874">  111</a></span>&#160;    <a class="code" href="class_node.html">Node&lt;T&gt;</a>* <a class="code" href="class_linked_list.html#a9c112e75e7eeaa2fe34d6e80901eb874">get</a>(<span class="keywordtype">int</span> index){</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span>(index&gt;=size){</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordtype">int</span> current{0};</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <a class="code" href="class_node.html">Node&lt;T&gt;</a>* temp = head;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">for</span>(current; current &lt; index;current++){</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                temp = temp-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">return</span> temp;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="class_linked_list.html#a75d301b9e61acee6fbe70fa1c8eaa343">  127</a></span>&#160;    T <a class="code" href="class_linked_list.html#a75d301b9e61acee6fbe70fa1c8eaa343">getLast</a>(){</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="class_node.html">Node&lt;T&gt;</a> *current = head;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">while</span>(current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a> != <span class="keyword">nullptr</span>){</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            current = current-&gt;<a class="code" href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">next</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> current;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="class_node.html">Node&lt;T&gt;</a>* head;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">int</span> size{};</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;};</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">#endif //INC_1EXTRACLASS_LINKEDLIST_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_linked_list_html_a3c20fcfec867e867f541061a09fc640c"><div class="ttname"><a href="class_linked_list.html#a3c20fcfec867e867f541061a09fc640c">LinkedList::LinkedList</a></div><div class="ttdeci">LinkedList()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:38</div></div>
+<div class="ttc" id="aclass_node_html_ac1c0563946c59c36bddde431b4adb00b"><div class="ttname"><a href="class_node.html#ac1c0563946c59c36bddde431b4adb00b">Node::next</a></div><div class="ttdeci">Node * next</div><div class="ttdef"><b>Definition:</b> LInkedList.h:20</div></div>
+<div class="ttc" id="aclass_linked_list_html_ab56d59b74c8d24cd223a4a49a2b5cfb1"><div class="ttname"><a href="class_linked_list.html#ab56d59b74c8d24cd223a4a49a2b5cfb1">LinkedList::getSize</a></div><div class="ttdeci">int getSize()</div><div class="ttdoc">Devuelve el tamano.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:101</div></div>
+<div class="ttc" id="aclass_linked_list_html_a7ecbb28e82117a680839ed0dc28ebdce"><div class="ttname"><a href="class_linked_list.html#a7ecbb28e82117a680839ed0dc28ebdce">LinkedList::isEmpty</a></div><div class="ttdeci">bool isEmpty()</div><div class="ttdoc">Verifica si la lista estia vacia.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:46</div></div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> LInkedList.h:16</div></div>
+<div class="ttc" id="aclass_node_html_ac450c71a8677a38d306361f9ced518d3"><div class="ttname"><a href="class_node.html#ac450c71a8677a38d306361f9ced518d3">Node::data</a></div><div class="ttdeci">T data</div><div class="ttdef"><b>Definition:</b> LInkedList.h:19</div></div>
+<div class="ttc" id="aclass_node_html_a0692b16d246460bf94c18d49592facdd"><div class="ttname"><a href="class_node.html#a0692b16d246460bf94c18d49592facdd">Node::Node</a></div><div class="ttdeci">Node(T data)</div><div class="ttdef"><b>Definition:</b> LInkedList.h:21</div></div>
+<div class="ttc" id="aclass_linked_list_html_a9c112e75e7eeaa2fe34d6e80901eb874"><div class="ttname"><a href="class_linked_list.html#a9c112e75e7eeaa2fe34d6e80901eb874">LinkedList::get</a></div><div class="ttdeci">Node&lt; T &gt; * get(int index)</div><div class="ttdoc">Devuelve un nodo de una posicion dada.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:111</div></div>
+<div class="ttc" id="aclass_linked_list_html_af5554257c49d4d83c41d82c782642c20"><div class="ttname"><a href="class_linked_list.html#af5554257c49d4d83c41d82c782642c20">LinkedList::~LinkedList</a></div><div class="ttdeci">~LinkedList()=default</div><div class="ttdoc">Destructor.</div></div>
+<div class="ttc" id="aclass_linked_list_html_a8a6f5190222bd179daeb7cc548d36a29"><div class="ttname"><a href="class_linked_list.html#a8a6f5190222bd179daeb7cc548d36a29">LinkedList::remove</a></div><div class="ttdeci">void remove(int index)</div><div class="ttdoc">Elimina un nodo segun una posicion dada.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:78</div></div>
+<div class="ttc" id="aclass_linked_list_html_a75d301b9e61acee6fbe70fa1c8eaa343"><div class="ttname"><a href="class_linked_list.html#a75d301b9e61acee6fbe70fa1c8eaa343">LinkedList::getLast</a></div><div class="ttdeci">T getLast()</div><div class="ttdoc">obtiene el nodo en la posicion final</div><div class="ttdef"><b>Definition:</b> LInkedList.h:127</div></div>
+<div class="ttc" id="aclass_linked_list_html"><div class="ttname"><a href="class_linked_list.html">LinkedList</a></div><div class="ttdef"><b>Definition:</b> LInkedList.h:32</div></div>
+<div class="ttc" id="aclass_linked_list_html_ab22b6fde4ef5f89943505ae5deb7be9d"><div class="ttname"><a href="class_linked_list.html#ab22b6fde4ef5f89943505ae5deb7be9d">LinkedList::addNode</a></div><div class="ttdeci">void addNode(T data)</div><div class="ttdoc">Agrega un nuevo nodo al final de la lista.</div><div class="ttdef"><b>Definition:</b> LInkedList.h:60</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

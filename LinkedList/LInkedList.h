@@ -18,18 +18,14 @@ public:
 
     T data;
     Node* next;
-
     Node(T data){
         this->data = data;
         this->next = nullptr;
     }
 };
 
-
-
-
 /**
- * @class implamentacion de lista enlazada
+ * @class implementacion de lista enlazada
  * @brief Aqui se encuentras todos los metodos necesarios
  */
 template<class T>

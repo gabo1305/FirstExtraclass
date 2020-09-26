@@ -13,7 +13,7 @@
 
 using namespace std;
 /**
- * cre el socket
+ * crea el socket
  * @return
  */
 int main()
